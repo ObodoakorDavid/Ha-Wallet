@@ -1,0 +1,138 @@
+/** @format */
+
+.section5 {
+  padding: 4%;
+}
+
+.section5 > div:nth-child(1) {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.section5 > div:nth-child(1) img:nth-child(1) {
+  width: 75%;
+  position: absolute;
+  top: 4%;
+  z-index: 2;
+}
+.section5 > div:nth-child(1) img:nth-child(2) {
+  width: 65%;
+  position: relative;
+  right: 12%;
+  z-index: 1;
+}
+
+.section5 > div:nth-child(2) > div:nth-child(1) p:nth-child(1) {
+  color: var(--primary-text-color);
+}
+
+.section5 > div:nth-child(2) > div:nth-child(1) h1 {
+  font-weight: bold;
+}
+
+.section5 > div:nth-child(2) > div:nth-child(2) > div {
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.section5 > div:nth-child(2) > div:nth-child(2) > div > img {
+  padding-bottom: 20px;
+}
+
+.section5 h3 {
+  font-weight: bold;
+}
+
+@media (min-width: 480px) {
+  .section5 > div:nth-child(1) {
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 768px) {
+  .section5 > div:nth-child(1) img:nth-child(1) {
+    width: 65%;
+    top: 3%;
+  }
+  .section5 > div:nth-child(1) img:nth-child(2) {
+    width: 55%;
+    position: relative;
+    right: 12%;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section5 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section5 > div {
+    text-align: left;
+  }
+
+  .section5 > div:nth-child(1) img:nth-child(1) {
+    width: 75%;
+    position: absolute;
+    top: 4%;
+    left: 12%;
+  }
+  .section5 > div:nth-child(1) img:nth-child(2) {
+    width: 65%;
+    right: 0%;
+  }
+
+  .section5 > div:nth-child(2) {
+    padding-top: 50px;
+  }
+
+  .section5 > div:nth-child(2) > div:nth-child(2) > div {
+    display: flex;
+
+    background-color: white;
+    text-align: left;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+  .section5 > div:nth-child(2) > div:nth-child(2) > div > img {
+    padding-bottom: 100px;
+    padding-right: 20px;
+  }
+
+  .section5 > div:nth-child(2) > div:nth-child(2) > div > img {
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section5 > div:nth-child(2) {
+    padding-top: 50px;
+    width: 600px;
+  }
+  .section5 {
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section5 > div:nth-child(2) {
+    padding-top: 80px;
+  }
+  
+}
+
+@media (min-width: 1400px) {
+  .section5 {
+    gap: 50px;
+    grid-template-columns: 1fr 1.5fr;
+  }
+}
+
+@media (min-width: 1600px) {
+}
